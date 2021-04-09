@@ -1,10 +1,9 @@
 package Polymorphism;
 
-public abstract class A
+public  class A
 {
-	public abstract void print();
-	public void genaricPrint() {
-		System.out.println("Generic Print");
+	public void print() {
+		System.out.println("Class A");
 	}
 	
 }
@@ -22,6 +21,7 @@ class C extends A
 {
 	@Override
 	public void print() {
+		super.print();
 		System.out.println("Class C");
 		
 	}

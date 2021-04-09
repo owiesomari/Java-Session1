@@ -2,8 +2,36 @@ package Overwrding;
 
 public  class A
 {
-	public void print() {
-		System.out.println("Class A");
+	int x;
+	
+	
+	
+	
+	public A(int x) {
+		super();
+		this.x = x;
+	}
+
+
+
+
+	public int getX() {
+		return x;
+	}
+
+
+
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+
+
+
+	public void f1(A a )
+	{
+		System.out.println("Method1");
 	}
 	
 }
